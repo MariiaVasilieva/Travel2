@@ -17,10 +17,11 @@
 <body>   
     <div class="wrapper">
          <!-- Header start  -->
-      <div class="section__header">        <header class="header">
+    <div class="section__header">        
+        <header class="header">
          
-            <div class="container"> 
-               
+            <div class="header__wrapper container"> 
+              
                     <div class="header__logo">
                         <a href="#" class="header__logo-link">
                             <img src="./img/logo.svg" alt="Travel Portal" class="header__logo-pic">
@@ -28,35 +29,29 @@
                     </div>
                     <nav class="header__nav">
                         <ul class="header__list">
-                            <li class="header__item-1">
+                            <li class="header__item header__item-1">
                                 <a href="#How_It_Works" class="header__link">How It Works</a>
                             </li>
-                            <li class="header__item-2">
+                            <li class="header__item header__item-2">
                                 <a href="#Plan_Your_Trip" class="header__link">Plan Your Trip</a>
                             </li>
-                            <li class="header__item-3">
+                            <li class="header__item header__item-3">
                                 <a href="#destinations" class="header__link">Destinations</a>
                             </li>
-                            <li class="header__item-4">
+                            <li class="header__item header__item-4">
                                 <a href="#Travel_Stories" class="header__link">Travel Stories</a>
                             </li>                    
                         </ul>                        
                     </nav>
-                    <button class="button btn-login">Login</button>               
+                    <button class="button btn-login">Login</button>    
+                    <div class="header__burger burger">
+                        <span class="burger__line burger__line1"></span>
+                        <span class="burger__line burger__line2"></span>
+                        <span class="burger__line burger__line3"></span>                        
+                    </div>            
+                
             </div>
-<!-- 
-           <div class="burger__menu">
-                <span class="hamburger__line"></span>
-              </div>
-              <nav class="burger">
-                <ul class="berger__nav">
-                  <li class="nav__link"><a href="#">How It Works</a></li>
-                  <li class="nav__link"><a href="#">Plan Your Trip</a></li>
-                  <li class="nav__link"><a href="#">Destinations</a></li>
-                  <li class="nav__link"><a href="#">Travel Stories</a></li>
-                </ul>
-              </nav>
-            </div>  -->
+           
 
         </header>
             <!-- Header end  -->               
@@ -68,15 +63,16 @@
                 <div class="container">
                     <div class="plan__your__trip">
                         <h1 class="preview__title">Explore the beauty of the World</h1>
-                        <h2 class="preview__subtitle">Receive personalized recommendations for countries, hotels, activities and more</h2></div>
+                        <h2 class="preview__subtitle">Receive personalized recommendations for countries, hotels, activities and more</h2>
                       
                         <div class="search-form">
                             <p class="placeholder">What would you like to do?</p>                                
                             <button type="submit" class="button search-form__submit">Start Planning</button>
-                        </div>                        
-                    </div> 
-                </section>                
-        </div> 
+                        </div>    
+                    </div>                    
+                </div> 
+            </section>                
+    </div> 
                                 
             <!-- Preview end  -->
         <main class="main">
@@ -154,6 +150,7 @@
                 <div class="container_for_bg">
                                       
                     <div class="stories__container">
+                        <div class="container">
                         <div class="stories__wrapper">
                             <div class="stories__item story-1">
                                 <div class="img__story-wrapper">
@@ -244,6 +241,7 @@
                                 <button href="#" id="stories__button" class="button stories__button"><img src="./img/arrow.png" alt="arrow">See More</button> 
                             </div>
                         </div>
+                    </div>
                     </div> 
                        
                 <footer class="footer">
@@ -267,8 +265,7 @@
 
            
             <!-- Stories end -->               
-      
-  
+       
         </main>
 
     </div>  
